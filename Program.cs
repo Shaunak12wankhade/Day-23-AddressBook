@@ -6,7 +6,10 @@ namespace Day23AddressBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to AddressBook");
+            //Console.WriteLine("Welcome to AddressBook");
+
+            AddressBook.AddContact();
+            AddressBook.ContactsDisplay();
         }
     }
 }
