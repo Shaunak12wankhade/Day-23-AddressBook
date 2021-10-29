@@ -9,17 +9,19 @@ namespace Day23AddressBook
             //Console.WriteLine("Welcome to AddressBook");
 
             AddressBook.addAddressBook();
-            Console.WriteLine("\n");
-            AddressBook.ContactsDisplay();
-            Console.WriteLine("\n");
-            AddressBook.EditContact();
-            Console.WriteLine("\n");
-            AddressBook.ContactsDisplay();
-            Console.WriteLine("\n");
-            AddressBook.ContactsDisplay();
-            AddressBook.ContactsDisplay();
-            AddressBook.ContactsDisplay();
-            AddressBook.ContactsDisplay();
+            AddressBook.PersonSearch();
+
+            //Console.WriteLine("\n");
+            //AddressBook.ContactsDisplay();
+            //Console.WriteLine("\n");
+            //AddressBook.EditContact();
+            //Console.WriteLine("\n");
+            //AddressBook.ContactsDisplay();
+            //Console.WriteLine("\n");
+            //AddressBook.ContactsDisplay();
+            //AddressBook.ContactsDisplay();
+            //AddressBook.ContactsDisplay();
+            //AddressBook.ContactsDisplay();
         }
     }
 }
